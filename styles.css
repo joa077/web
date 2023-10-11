@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #D71921;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    width: 200px; /* Ancho más pequeño */
+    height: auto; /* Altura automátic
+    a para mantener la proporción original */
+    float: right;
+    margin-left: 20px;
+
+}
+
+.imagen-a-derecha {
+    float: right;
+    margin-left: 20px; /* Opcional: agregar un margen a la izquierda para separar el contenido */
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.proyecto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.proyecto h3 {
+    font-size: 20px;
+}
+
+.proyecto a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.proyecto a:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    background-color: #3CB371;
+    color: #fff;
+    padding: 10px;
+}
